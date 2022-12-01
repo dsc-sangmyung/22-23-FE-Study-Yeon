@@ -1,5 +1,11 @@
+import React from 'react';
+
 const WritePage = () => {
-    return <div>게시물 작성</div>;
+    return (
+        <div>
+            WritePage
+        </div>
+    );
 };
 
 export default WritePage;

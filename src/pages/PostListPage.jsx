@@ -1,5 +1,11 @@
+import React from 'react';
+
 const PostListPage = () => {
-    return <div>게시물 목록</div>;
+    return (
+        <div>
+            PostListPage
+        </div>
+    );
 };
 
 export default PostListPage;

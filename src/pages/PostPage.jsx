@@ -1,5 +1,11 @@
+import React from 'react';
+
 const PostPage = () => {
-    return <div>게시물 읽기</div>;
+    return (
+        <div>
+            postpage
+        </div>
+    );
 };
 
 export default PostPage;
