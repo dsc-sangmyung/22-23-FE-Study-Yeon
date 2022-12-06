@@ -1,0 +1,75 @@
+/* instagram logo style sheet */
+.LoginTotal{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.LoginInstagram {
+    font-style : italic;
+    font-size : 40px;
+}
+
+/* form style sheet */
+.LoginForm{
+    border : 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+/* input style sheet */
+.LoginInput{
+    align-items: center;
+    
+}
+/* 로그인 버튼 style sheet*/
+.unactive{
+    @include buttonDefault;
+    background-color: #b2dffc;
+    color: #fff;
+}
+
+.active{
+    @include buttonDefault;
+    background: #0095f6;
+    color: #fff;
+}
+
+/* Link To Facebook style sheet */
+.LoginFacebook{
+
+}
+
+/* Find Pw style sheet */
+.LoginFindPw{
+
+}
+
+/* Join Style sheet */
+.LoginJoin{
+
+}
+
+/* img Style sheet */
+.Loginimg{
+    width : 80px;
+    height: 20px;
+}
+
+/* Or Style Sheet */
+.wrap {
+    display: flex;
+    align-items: center;
+ }
+ .bar{
+    flex: auto;
+    border: none;
+    height: 1px;
+    background-color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .txt {
+    padding: 0 10px;
+    color: gray;
+ }
