@@ -1,10 +1,11 @@
 .main{
-    width : 340px;
-    margin-left : auto;
-    margin-right : auto;
-    margin-top: 10rem;
+
     
     .loginForm {
+      width : 340px;
+      margin-left : auto;
+      margin-right : auto;
+      margin-top: 10rem;
       height : 390px;
       background-color: #fff;
       border : 0.5px solid grey;
@@ -85,6 +86,9 @@
   }
 
   .loginJoin{
+    width : 340px;
+    margin-left : auto;
+    margin-right : auto;
     margin-top: 30px;
     height : 65px;
     background-color: #fff;
@@ -103,7 +107,15 @@
       }
     }
   }
+  .loginFooter{
+    margin-left : auto;
+    margin-right : auto;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    padding: 0 25px;
+    line-height: 60px;
+    color: #8a8c8f;
+    font-size : 12px;
+  }
 }
-
-
-
