@@ -1,6 +1,4 @@
 .main{
-
-    
     .loginForm {
       width : 340px;
       margin-left : auto;
@@ -89,7 +87,7 @@
     width : 340px;
     margin-left : auto;
     margin-right : auto;
-    margin-top: 30px;
+    margin-top: 14px;
     height : 65px;
     background-color: #fff;
     border : 0.5px solid grey;
@@ -108,10 +106,26 @@
       }
     }
   }
+  .downloadtext{
+    margin-left : auto;
+    margin-right : auto;
+    margin-top: 25px;
+    text-align: center;
+    color : black;
+    font-size: 15px;
+
+  }
+  .downloadimg {
+    display: block; 
+    margin: 0px auto;
+    margin-top : 15px;
+    width : 290px;
+    height : 50px
+  }
   .loginFooter{
     margin-left : auto;
     margin-right : auto;
-    margin-top : 15rem;
+    margin-top : 12.5rem;
     text-align:center;
     word-spacing: 10px;
     letter-spacing: 0.1px;
