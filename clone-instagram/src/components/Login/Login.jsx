@@ -64,6 +64,12 @@ const Login = () => {
             <div className='loginJoin'>
                 <div className='joinsec'>계정이 없으신가요? <a href="#" className='a'>가입하기</a></div>
             </div>
+            <div className='downloadtext'>
+                앱을 다운로드하세요.
+            </div>
+            <div>
+                <img src = "img/Downloadimg.png" className='downloadimg'></img>
+            </div>
             <div className='loginFooter'>
                 <footer>{footContent}</footer>
             </div>
