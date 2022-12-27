@@ -71,7 +71,7 @@ const Login = () => {
                 <img src = "img/Downloadimg.png" className='downloadimg'></img>
             </div>
             <div className='loginFooter'>
-                <footer>{footContent}</footer>
+                {footContent}
             </div>
         </div>
     );
