@@ -1,0 +1,46 @@
+.main{
+    margin-top:10rem;
+    .logo{
+        width: 175px;
+        height: 55px;
+    }
+
+    .box{
+        text-align: center;
+    }
+    .mainimage{
+        width: 300px;
+        height: 401.99px;
+        background: none;
+        display: inline-block;
+    }
+
+    .loginform{
+        border : 1px solid lightgray;
+        width: 350px;
+        height : 401.99px;
+        text-align: center;
+        display: inline-block;
+        
+        
+        .inputform{
+            width: 268px;
+            height : 38px;
+        }
+
+        .loginButton {
+            width: 268px;
+            height: 32px;
+            border: none;
+            background-color: #0095f6;
+            color: white;
+            font-size: 17px;
+            border-radius: 7px;
+        
+            &:disabled {
+              background-color: rgba(0, 149, 246, 0.3);
+            }
+          }
+        
+    }
+}
