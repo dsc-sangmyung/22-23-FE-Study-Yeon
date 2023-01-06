@@ -1,18 +1,97 @@
+
+/* background */
 * {
   background-color: #f9f9f9;
+  margin:0 auto;
 }
 
+
+.main-container{
+    width: 750px;
+    height: 900px;
+    display : flex;
+    align-items : center;
+}
+
+.mainimg{
+    width: 380px;
+    height: 589px;
+    @media(max-width:870px) { 
+        display: none;
+    }
+}
+
+.totalform{
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+.mainform{
+    border: 1px solid lightgrey;
+    width: 350px;
+    height: 401.99px;
+    background-color: white;
+}
+
+.logo{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.inputform{
+    width: 268px;
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+input:focus{
+    outline: 1px solid grey;;
+}
+input:focus::placeholder{
+    position: fixed;
+    font-size: 9px;
+}
+.subform{
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    width: 350px;
+    height: 65px;
+    background-color: white;
+}
+.downloadtext{
+    margin-top: 20px;
+}
+
+.downloadimg{
+    margin-top: 20px;
+}
+.downloadimg1{
+    width: 135px;
+    height: 34px;
+    margin-right: 8px;
+}
+.downloadimg2{
+    width: 135px;
+    height: 36px;
+}
+
+
+
 .loginButton {
-  width: 268px;
+  width: 280px;
   height: 32px;
   border: none;
   background-color: #0095f6;
   color: white;
-  font-size: 17px;
   border-radius: 7px;
   margin-top: 1.1rem;
-
+  font-size: 14px;
   &:disabled {
-    background-color: rgba(0, 149, 246, 0.3);
+    background-color: rgba(0, 148, 246, 0.75);
   }
 }

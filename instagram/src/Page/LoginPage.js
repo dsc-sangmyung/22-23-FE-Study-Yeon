@@ -26,6 +26,64 @@ const LoginPage = () => {
   };
 
   return (
+    <div className="main-container">
+      <div>
+        <img src="img/mainimage.png" alt="mainimage" className="mainimg" />
+      </div>
+
+      <div className="totalform">
+        <div className="mainform">
+          {/*instagram logo */}
+          <img
+            src="/img/Instagramlogo.png"
+            alt="Instagram logo"
+            className="logo"
+          />
+          {/* 1st Form*/}
+          <div>
+            <input
+              onChange={handleIdInput}
+              onKeyUp={isPassedLogin}
+              type="text"
+              placeholder="전화번호, 사용자 이름 또는 이메일"
+              className="inputform"
+            />
+          </div>
+          <div>
+            <input
+              onChange={handlePwInput}
+              onKeyUp={isPassedLogin}
+              type="password"
+              placeholder="비밀번호"
+              className="inputform"
+            />
+          </div>
+          <div>
+            <button
+              type="button"
+              onClick={onClickButton}
+              className="loginButton"
+              disabled={flag}
+            >
+              로그인
+            </button>
+          </div>
+          <div>또는</div>
+          <div>Facebook으로 로그인</div>
+          <div>비밀번호를 잊으셨나요?</div>
+        </div>
+        <div className="subform">form</div>
+        <div className="downloadtext">앱을 다운로드하세요.</div>
+        <div className="downloadimg">
+          <img
+            src="img/GooglePlay.png"
+            alt="googleplay"
+            className="downloadimg1"
+          />
+          <img src="img/AppStore.png" alt="appstore" className="downloadimg2" />
+        </div>
+      </div>
+    </div>
   );
 };
 
