@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { AiFillFacebook } from "react-icons/ai";
 import "../css/LoginPage.scss";
 
 const LoginPage = () => {
@@ -29,6 +30,13 @@ const LoginPage = () => {
     <div className="main-container">
       <div>
         <img src="img/mainimage.png" alt="mainimage" className="mainimg" />
+
+        <div className="container">
+          <div className="pic" id="pic4" />
+          <div className="pic" id="pic3" />
+          <div className="pic" id="pic2" />
+          <div className="pic" id="pic1" />
+        </div>
       </div>
 
       <div className="totalform">
@@ -40,7 +48,7 @@ const LoginPage = () => {
             className="logo"
           />
           {/* 1st Form*/}
-          <div>
+          <div className="formbackground">
             <input
               onChange={handleIdInput}
               onKeyUp={isPassedLogin}
@@ -49,7 +57,7 @@ const LoginPage = () => {
               className="inputform"
             />
           </div>
-          <div>
+          <div className="formbackground">
             <input
               onChange={handlePwInput}
               onKeyUp={isPassedLogin}
@@ -58,7 +66,7 @@ const LoginPage = () => {
               className="inputform"
             />
           </div>
-          <div>
+          <div className="formbackground">
             <button
               type="button"
               onClick={onClickButton}
@@ -68,19 +76,26 @@ const LoginPage = () => {
               로그인
             </button>
           </div>
-          <div>또는</div>
-          <div>Facebook으로 로그인</div>
-          <div>비밀번호를 잊으셨나요?</div>
+          <div className="hr-sect">또는</div>
+          <div className="facebook">
+            <AiFillFacebook className="icon" /> Facebook으로 로그인
+          </div>
+          <div className="findpw">비밀번호를 잊으셨나요?</div>
         </div>
-        <div className="subform">form</div>
+        <div className="subform">
+          계정이 없으신가요?{" "}
+          <a href="" className="a">
+            가입하기
+          </a>
+        </div>
         <div className="downloadtext">앱을 다운로드하세요.</div>
         <div className="downloadimg">
+          <img src="img/AppStore.png" alt="appstore" className="downloadimg2" />
           <img
             src="img/GooglePlay.png"
             alt="googleplay"
             className="downloadimg1"
           />
-          <img src="img/AppStore.png" alt="appstore" className="downloadimg2" />
         </div>
       </div>
     </div>

@@ -1,86 +1,139 @@
-
 /* background */
 * {
   background-color: #f9f9f9;
-  margin:0 auto;
+  margin: 0 auto;
+
 }
 
-
-.main-container{
-    width: 750px;
-    height: 900px;
-    display : flex;
-    align-items : center;
+.main-container {
+  width: 300px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  position: relative;
 }
 
-.mainimg{
-    width: 380px;
-    height: 589px;
-    @media(max-width:870px) { 
-        display: none;
-    }
+.mainimg {
+  width: 380px;
+  height: 589px;
+  position: relative;
+  @media (max-width: 870px) {
+    display: none;
+  }
 }
 
-.totalform{
-    margin-top: 15px;
-    margin-left: 30px;
-    text-align: center;
-    
+.totalform {
+  margin-top: 15px;
+  margin-left: 30px;
+  text-align: center;
 }
-.mainform{
-    border: 1px solid lightgrey;
-    width: 350px;
-    height: 401.99px;
+.mainform {
+  border: 1px solid lightgrey;
+  width: 350px;
+  height: 401.99px;
+  background-color: white;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.inputform {
+  width: 268px;
+  height: 38px;
+  margin-top: 10px;
+  border: 1px solid lightgrey;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.formbackground {
+  background-color: white;
+}
+
+input:focus {
+  outline: 1px solid grey;
+}
+input:focus::placeholder {
+  position: fixed;
+  font-size: 9px;
+}
+.hr-sect {
+  background-color: white;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 12px;
+  margin: 10px 18px;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 14px 20px;
+}
+
+.facebook {
+  background-color: white;
+  color: navy;
+  font-size: 15px;
+  text-align: center;
+  .icon {
     background-color: white;
+  }
 }
 
-.logo{
-    width: 200px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+.findpw {
+  background-color: white;
+  color: navy;
+  font-size: 11px;
+  margin-top: 15px;
 }
+.subform {
+  margin-top: 12px;
+  border: 1px solid lightgrey;
+  font-size: 15px;
+  width: 350px;
+  height: 45px;
+  background-color: white;
+  text-align : center;
+  padding-top: 30px;
 
-.inputform{
-    width: 268px;
-    height: 38px;
-    margin-top: 10px;
-    border: 1px solid lightgrey;
-    padding-left: 10px;
-    font-size: 12px;
-}
-
-input:focus{
-    outline: 1px solid grey;;
-}
-input:focus::placeholder{
-    position: fixed;
-    font-size: 9px;
-}
-.subform{
-    margin-top: 20px;
-    border: 1px solid lightgrey;
-    width: 350px;
-    height: 65px;
+  a{
+    text-decoration-line: none;
     background-color: white;
+    color:#0095f6;
+    font-weight: bold;
+  }
 }
-.downloadtext{
-    margin-top: 20px;
-}
-
-.downloadimg{
-    margin-top: 20px;
-}
-.downloadimg1{
-    width: 135px;
-    height: 34px;
-    margin-right: 8px;
-}
-.downloadimg2{
-    width: 135px;
-    height: 36px;
+.downloadtext {
+  margin-top: 20px;
+  font-size: 14px;
 }
 
-
+.downloadimg {
+  margin-top: 12px;
+}
+.downloadimg1 {
+  width: 145px;
+  height: 38px;
+  margin-right: 8px;
+}
+.downloadimg2 {
+  width: 152px;
+  height: 40px;
+}
 
 .loginButton {
   width: 280px;
@@ -91,7 +144,82 @@ input:focus::placeholder{
   border-radius: 7px;
   margin-top: 1.1rem;
   font-size: 14px;
+  font-weight: bold;
   &:disabled {
     background-color: rgba(0, 148, 246, 0.75);
+  }
+}
+
+.container {
+  position: absolute;
+  display: block;
+  width: 100%;
+  max-width: 255px;
+  height: 545px;
+  @media (max-width: 870px) {
+    display: none;
+  }
+}
+.pic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 570px;
+  left: 110px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 24s infinite;
+  animation: fade 24s infinite;
+  border-radius: 22px;
+}
+#pic1 {
+  animation-delay: 0s;
+  background-image: url("../../public/img/loginImage1.png");
+}
+#pic2 {
+  background-image: url("../../public/img/loginImage2.png");
+  animation-delay: 8s;
+}
+#pic3 {
+  background-image: url("../../public/img/loginImage3.png");
+  animation-delay: 16s;
+}
+#pic4 {
+  background-image: url("../../public/img/loginImage4.png");
+  animation-delay: 16s;
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
