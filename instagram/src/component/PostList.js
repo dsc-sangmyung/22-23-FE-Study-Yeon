@@ -1,10 +1,14 @@
 import React from 'react';
 import PostListItem from './PostListItem';
-const PostList = () => {
+import StoryList from './StoryList';
+import "../css/PostList.scss";
+const PostList = ({contents}) => {
     return (
         <div>
-            postlist
-            <PostListItem />
+            <div><StoryList/></div>
+            {contents.map(content => (
+                <PostListItem content={content} key={content.id}/>
+            ))}
         </div>
     );
 };

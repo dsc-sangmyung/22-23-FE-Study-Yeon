@@ -1,4 +1,30 @@
-*{
+.main{
+    display: flex;
+}
+
+.menu{
     background-color: black;
     color: white;
+    flex: 0.9;
+    border-right: 1px solid #969696;
+    @media (max-width: 1260px) {
+        flex : 0.2
+      }
+      @media (max-width: 765px) {
+        display: none;
+      }
+}
+
+.feed{
+    background-color: #969696;
+    flex:2.8;
+    border-right: 1px solid white;
+}
+
+.aside{
+    background-color: #121212;
+    flex:2.3;
+    @media (max-width: 1000px) {
+        display: none;
+      }
 }

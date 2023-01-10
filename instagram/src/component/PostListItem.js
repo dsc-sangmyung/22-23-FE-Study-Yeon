@@ -1,10 +1,13 @@
 import React from 'react';
 import CommentList from './CommentList';
+import NavBar from './NavBar';
+import "../css/PostList.scss";
 
-const PostListItem = () => {
+const PostListItem = ({content}) => {
     return (
-        <div>
-            postlistitem
+        <div >
+            <NavBar/>
+            <img src={content.image} alt={content.id}/>
             <CommentList/>
         </div>
     );
