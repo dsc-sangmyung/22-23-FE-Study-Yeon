@@ -3,28 +3,29 @@
 }
 
 .menu{
-    background-color: black;
-    color: white;
-    flex: 0.9;
-    border-right: 1px solid #969696;
+    flex: 1;
+    border-left: 1px solid black;
     @media (max-width: 1260px) {
-        flex : 0.2
-      }
-      @media (max-width: 765px) {
-        display: none;
+        flex:0.3;
       }
 }
 
 .feed{
-    background-color: #969696;
-    flex:2.8;
-    border-right: 1px solid white;
+    flex:3;
+    border: 1px solid black;
+}
+
+.story{
+    width: 470px;
+    height: 97px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.post{
 }
 
 .aside{
-    background-color: #121212;
-    flex:2.3;
-    @media (max-width: 1000px) {
-        display: none;
-      }
+    flex:2;
+    border: 1px solid black;
 }

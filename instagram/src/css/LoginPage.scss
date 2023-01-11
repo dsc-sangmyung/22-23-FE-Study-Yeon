@@ -50,19 +50,65 @@
   border: 1px solid lightgrey;
   padding-left: 10px;
   font-size: 12px;
+  
 }
 
 .formbackground {
   background-color: white;
+  position: relative;
+}
+
+.formbackground1 {
+  background-color: white;
+  position: relative;
+}
+
+.formbackground1::before {
+  content: "전화번호, 사용자 이름 또는 이메일";
+  position: absolute;
+  font-size: 16px;
+  color: grey;
+  top: 0;
+  opacity: 0;
+}
+.formbackground1:focus-within::before {
+  font-size: 10px;
+  left: 12%;
+  top: 28%;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+
+.formbackground2 {
+  background-color: white;
+  position: relative;
+}
+
+.formbackground2::before {
+  content: "비밀번호";
+  position: absolute;
+  font-size: 16px;
+  color: grey;
+  top: 0;
+  opacity: 0;
+}
+.formbackground2:focus-within::before {
+  font-size: 10px;
+  left: 12%;
+  top: 28%;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
 }
 
 input:focus {
-  outline: 1px solid grey;
+  outline: 0.2px solid grey;
 }
-input:focus::placeholder {
-  position: fixed;
-  font-size: 9px;
-}
+
+
 .hr-sect {
   background-color: white;
   display: flex;

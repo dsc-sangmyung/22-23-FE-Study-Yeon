@@ -5,10 +5,10 @@ import "../css/PostList.scss";
 
 const PostListItem = ({content}) => {
     return (
-        <div >
-            <NavBar/>
-            <img src={content.image} alt={content.id}/>
-            <CommentList/>
+        <div className='postlist'>
+            <div className='navbar'><NavBar/></div>
+            <div><img src={content.image} alt={content.id} className='img'/></div>
+            <div><CommentList/></div>
         </div>
     );
 };

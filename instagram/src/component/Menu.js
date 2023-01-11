@@ -8,14 +8,14 @@ import { GoDiffAdded } from "react-icons/go";
 const Menu = () => {
     return (
      <div className='menu'>
-        <li> <AiFillHome className='react-icon'/>홈</li>
-        <li> <AiOutlineSearch className='react-icon'/>검색</li>
-        <li><IoIosCompass className='react-icon'/>탐색 탭</li>
-        <li><IoIosPaperPlane className='react-icon'/>메시지</li>
-        <li><IoMdHeartEmpty className='react-icon'/>알림</li>
-        <li><GoDiffAdded className='react-icon'/>만들기</li>
-        <li><IoIosRadioButtonOff className='react-icon'/>프로필</li>
-        <li><IoIosReorder className='react-icon'/>더보기</li>
+        <li> <AiFillHome className='icon'/><a className='text'>홈</a></li>
+        <li> <AiOutlineSearch /><a className='text'>검색</a></li>
+        <li><IoIosCompass /><a className='text'>탐색 탭</a></li>
+        <li><IoIosPaperPlane /><a className='text'>메시지</a></li>
+        <li><IoMdHeartEmpty /><a className='text'>알림</a></li>
+        <li><GoDiffAdded /><a className='text'>만들기</a></li>
+        <li><IoIosRadioButtonOff /><a className='text'>프로필</a></li>
+        <li><IoIosReorder /><a className='text'>더보기</a></li>
      </div>
     );
 };

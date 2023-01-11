@@ -48,7 +48,7 @@ const LoginPage = () => {
             className="logo"
           />
           {/* 1st Form*/}
-          <div className="formbackground">
+          <div className="formbackground1">
             <input
               onChange={handleIdInput}
               onKeyUp={isPassedLogin}
@@ -57,7 +57,7 @@ const LoginPage = () => {
               className="inputform"
             />
           </div>
-          <div className="formbackground">
+          <div className="formbackground2">
             <input
               onChange={handlePwInput}
               onKeyUp={isPassedLogin}

@@ -1,9 +1,10 @@
 import React from 'react';
 import StoryListItem from './StoryListItem';
+import "../css/StoryList.scss";
 
 const StoryList = () => {
     return (
-        <div>
+        <div className='main'>
             StoryList
             <StoryListItem />
         </div>
