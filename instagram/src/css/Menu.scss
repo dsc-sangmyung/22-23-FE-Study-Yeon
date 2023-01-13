@@ -4,31 +4,41 @@ li{
     margin-top: 30px;
 }
 
-.icon{
+button{
+    border: none;
+    margin-top: 10px;
+}
+
+.homeicon{
     font-size: 23px;
 }
-.icon{
+.searchicon{
     font-size: 23px;
 }
-.icon{
+.compassicon{
     font-size: 23px;
 }
-.icon{
+.planeicon{
     font-size: 23px;
 }
-.icon{
+.hearticon{
     font-size: 23px;
 }
-.icon{
+.addicon{
     font-size: 23px;
 }
-.icon{
+.profileicon{
+    font-size: 23px;
+}
+.extraicon{
+    margin-top: 400px;
     font-size: 23px;
 }
 
 .text{
-    padding-left: 5px;;
-    font-size: 21px;
+
+    padding-left: 7px;
+    font-size: 18px;
     
     @media (max-width: 1260px) {
         display: none;

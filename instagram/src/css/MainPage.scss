@@ -4,7 +4,9 @@
 
 .menu{
     flex: 1;
-    border-left: 1px solid black;
+    top: 30px;
+    position: sticky;
+    border-right: 0.5px solid lightgray;
     @media (max-width: 1260px) {
         flex:0.3;
       }
@@ -12,7 +14,6 @@
 
 .feed{
     flex:3;
-    border: 1px solid black;
 }
 
 .story{
@@ -27,5 +28,4 @@
 
 .aside{
     flex:2;
-    border: 1px solid black;
 }
