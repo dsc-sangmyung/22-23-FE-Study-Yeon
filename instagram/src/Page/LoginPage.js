@@ -10,6 +10,7 @@ const LoginPage = () => {
   const [flag, setFlag] = useState(true);
   const linkMain = useNavigate();
 
+  
   const handleIdInput = (event) => {
     setId(event.target.value);
   };
