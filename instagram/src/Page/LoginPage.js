@@ -32,7 +32,6 @@ const LoginPage = () => {
     <div className="main-container">
       <div>
         <img src="img/mainimage.png" alt="mainimage" className="mainimg" />
-
         <div className="container">
           <div className="pic" id="pic4" />
           <div className="pic" id="pic3" />

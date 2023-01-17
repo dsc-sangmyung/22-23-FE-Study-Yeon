@@ -9,22 +9,27 @@ const MainPage = () => {
   const contents = [
     {
       id: 1,
+      name : 'y_eonjae',
       image: "./img/Dog1.jpeg",
     },
     {
       id: 2,
+      name : 'jeong_yeon_jae',
       image: "./img/Dog2.jpeg",
     },
     {
       id: 3,
+      name : 'ash_jae',
       image: "./img/Dog3.jpeg",
     },
     {
       id: 4,
+      name : 'yeon_0818',
       image: "./img/Dog4.jpeg",
     },
     {
       id: 5,
+      name: 'yeon_yeon',
       image: "./img/Dog5.jpeg",
     },
   ];
