@@ -9,35 +9,55 @@ const MainPage = () => {
   const contents = [
     {
       id: 1,
-      name : 'y_eonjae',
+      name: "y_eonjae",
       image: "./img/Dog1.jpeg",
-      location: "pyeontaek, gyeongi"
+      location: "pyeontaek, gyeongi",
+      main_text: "Test Text for viewing the feed",
+      count: 54,
     },
     {
       id: 2,
-      name : 'jeong_yeon_jae',
+      name: "jeong_yeon_jae",
       image: "./img/Dog2.jpeg",
-      location: "pyeontaek, gyeongi"
+      location: "pyeontaek, gyeongi",
+      main_text: "Test Text for viewing the feed",
+      count: 54,
     },
     {
       id: 3,
-      name : 'ash_jae',
+      name: "ash_jae",
       image: "./img/Dog3.jpeg",
-      location: "suwon, gyeongi"
+      location: "suwon, gyeongi",
+      main_text: "Test Text for viewing the feed",
+      count: 140,
     },
     {
       id: 4,
-      name : 'yeon_0818',
+      name: "yeon_0818",
       image: "./img/Dog4.jpeg",
-      location: "jongro, seoul"
+      location: "jongro, seoul",
+      main_text: "Test Text for viewing the feed",
+      count: 23,
     },
     {
       id: 5,
-      name: 'yeon_yeon',
+      name: "yeon_yeon",
       image: "./img/Dog5.jpeg",
-      location: "pyeontaek, gyeongi"
+      location: "pyeontaek, gyeongi",
+      main_text: "Test Text for viewing the feed",
+      count: 523,
+    },
+    {
+      id: 6,
+      name: "jeong_yeon_jae",
+      image : "./img/MainImage.png",
+      location: "hongdae, seoul",
+      main_text: "Test Text for viewing the feed",
+      count: 0,
     },
   ];
+
+
   return (
     <div className="main">
       <div className="menu">
@@ -45,7 +65,7 @@ const MainPage = () => {
       </div>
       <div className="feed">
         <div className="story">
-          <StoryList />
+          <StoryList contents={contents} />
         </div>
         <div className="post">
           <PostList contents={contents} />

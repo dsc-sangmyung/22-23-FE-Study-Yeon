@@ -1,43 +1,123 @@
-.postlist{
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    width : 470px;
-    height: 877px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.postlist {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 470px;
+  height: 877px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: row;
-    width : 470px;
-    height: 56px;
-    align-items: left;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 470px;
+  height: 56px;
+  align-items: left;
 }
 
-.navbar_m{
-    width: 200px;
-    height: 30px;
-    margin-top: 13px;
-    margin-right: 210px;
+.navbar_m {
+  width: 200px;
+  height: 30px;
+  margin-top: 12px;
+  margin-right: 218px;
+}
+.navbar_name {
+  font-size: 16px;
+  font-style: unset;
+}
+.navbar_location {
+  font-size: 13px;
+}
+.navbar_img {
+  margin-top: 15px;
+  margin-left: 12px;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 30px;
+}
 
-}
-.navbar_name{
-    font-size: 17px;
-}
-.navbar_location{
-    font-size: 13px;
-}
-.navbar_img{
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    border-radius: 30px;
+.option_bar {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 468px;
+  height: 40px;
+  font-size: 28px;
 }
 
-.img{
-    width : 470px;
-    height: 587.5px;
+.heart {
+  width: 1.6rem;
+  margin-left: 10px;
+}
+
+.commenticon {
+  margin-left: -140px;
+}
+.plane {
+  margin-left: -140px;
+}
+
+.bookmarkicon {
+  margin-right: 10px;
+}
+.img {
+  width: 470px;
+  height: 587.5px;
+}
+.cnt {
+  margin-left: 12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.under_nav {
+  display: flex;
+  flex-direction: row;
+}
+.nickname {
+  margin-top: 3px;
+  margin-left: 14px;
+  font-weight: bold;
+}
+
+.feedtext {
+  margin-top: 5px;
+  margin-left: -170px;
+  font-size: 14px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  border-top: 1px solid lightgray;
+}
+
+.imogeicon {
+  margin-top: 11px;
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.comment_input {
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  width: 340px;
+}
+.comment_input:focus{
+    outline: none;
+    ::placeholder{
+        position: absolute;
+    }
+}
+
+.submitbutton {
+  background-color: #f9f9f9;
+  margin-top: 5px;
+  color: #0095f6;
+  &:disabled {
+    color: rgba(0, 148, 246, 0.75);
+  }
 }

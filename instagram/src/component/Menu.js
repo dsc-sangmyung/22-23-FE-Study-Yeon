@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/Menu.scss";
-import { AiFillHome, AiOutlineSearch } from "react-icons/ai";
+import { AiFillHome, AiOutlineSearch,AiOutlineInstagram } from "react-icons/ai";
 import {
   IoIosCompass,
   IoIosPaperPlane,
@@ -39,6 +39,12 @@ const Menu = () => {
 
   return (
     <div className="menu">
+      <li>
+        <button onClick={onClickMain}>
+          <AiOutlineInstagram className="instagramicon"/>
+          <img src="./img/instagram_logo.png" alt="instagramlogo" className="menulogo"/>
+        </button>
+      </li>
       <li>
         <button onClick={onClickMain}> 
           <AiFillHome className="homeicon" />
