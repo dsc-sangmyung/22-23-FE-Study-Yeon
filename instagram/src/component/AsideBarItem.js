@@ -1,9 +1,10 @@
 import React from 'react';
+import "../css/AsideBar.scss";
 
-const AsideBarItem = () => {
+const AsideBarItem = ({content}) => {
     return (
         <div>
-            AsideBarItem
+            {content.name}
         </div>
     );
 };
