@@ -4,5 +4,17 @@
 }
 
 .profilebox{
-    
+    border: 1px solid black;
+    width: 367px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    align-items: center;
+
+    .profilebox-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: black;
+    }
 }

@@ -72,7 +72,7 @@ const MainPage = () => {
         </div>
       </div>
       <div className="aside">
-        <AsideBar />
+        <AsideBar contents = {contents}/>
       </div>
     </div>
   );
