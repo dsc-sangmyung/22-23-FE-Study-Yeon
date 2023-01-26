@@ -3,6 +3,7 @@ import AsideBarItem from "./AsideBarItem";
 
 const AsideBar = ({ contents }) => {
   return (
+    
     <div className="box">
       <div className="profilebox">
         <div className="profilebox-image"></div>
