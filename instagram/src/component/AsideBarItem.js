@@ -3,7 +3,8 @@ import "../css/AsideBar.scss";
 
 const AsideBarItem = ({content}) => {
     return (
-        <div>
+        <div className='asidebar_main'>
+            <img src={content.image} className = 'asidebar_img'/>
             {content.name}
         </div>
     );

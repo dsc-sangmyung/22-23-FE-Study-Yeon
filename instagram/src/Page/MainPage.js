@@ -12,7 +12,7 @@ const MainPage = () => {
       name: "y_eonjae",
       image: "./img/Dog1.jpeg",
       location: "pyeontaek, gyeongi",
-      main_text: "Test Text for viewing the feed",
+      main_text: "Testing Text for viewing the feed",
       count: 54,
     },
     {
@@ -20,7 +20,7 @@ const MainPage = () => {
       name: "jeong_yeon_jae",
       image: "./img/Dog2.jpeg",
       location: "pyeontaek, gyeongi",
-      main_text: "Test Text for viewing the feed",
+      main_text: "Testing Text for viewing the feed",
       count: 54,
     },
     {
@@ -28,7 +28,7 @@ const MainPage = () => {
       name: "ash_jae",
       image: "./img/Dog3.jpeg",
       location: "suwon, gyeongi",
-      main_text: "Test Text for viewing the feed",
+      main_text: "Testing Text for viewing the feed",
       count: 140,
     },
     {
@@ -36,7 +36,7 @@ const MainPage = () => {
       name: "yeon_0818",
       image: "./img/Dog4.jpeg",
       location: "jongro, seoul",
-      main_text: "Test Text for viewing the feed",
+      main_text: "Testing Text for viewing the feed",
       count: 23,
     },
     {
@@ -44,7 +44,7 @@ const MainPage = () => {
       name: "yeon_yeon",
       image: "./img/Dog5.jpeg",
       location: "pyeontaek, gyeongi",
-      main_text: "Test Text for viewing the feed",
+      main_text: "Testing Text for viewing the feed",
       count: 523,
     },
     {
@@ -52,7 +52,7 @@ const MainPage = () => {
       name: "jeong_yeon_jae",
       image : "./img/MainImage.png",
       location: "hongdae, seoul",
-      main_text: "Test Text for viewing the feed",
+      main_text: "Testing Text for viewing the feed",
       count: 0,
     },
   ];

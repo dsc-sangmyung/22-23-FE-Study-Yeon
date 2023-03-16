@@ -1,13 +1,12 @@
 .box{
-    border: 1px solid black;
     margin-top: 28px;
     margin-left: 0px;
     width: 368px;
 }
 
 .profilebox{
-    border: 1px solid black;
     width: 367px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     float: left;
@@ -20,4 +19,14 @@
         border-radius: 50%;
         background-color: black;
     }
+}
+
+.asidebar_main{
+    margin-top : 20px;
+    margin-left: 42px;
+}
+.asidebar_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
