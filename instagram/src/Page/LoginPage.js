@@ -31,7 +31,17 @@ const LoginPage = () => {
   return (
     <div className="main-container">
       <div>
+
+        {/* <img></img> */}
+        {/* <img
+        src = "이미지 파일의 주소 또는 파일 경로"
+        alt = "이 이미지 파일이 어떤 사진인지 간단하게 설명할 수 있는 단어를 적어주시면 됩니다"
+        width = 100
+        height = 100
+        ></img>  */}
         <img src="img/mainimage.png" alt="mainimage" className="mainimg" />
+
+
         <div className="container">
           <div className="pic" id="pic4" />
           <div className="pic" id="pic3" />
